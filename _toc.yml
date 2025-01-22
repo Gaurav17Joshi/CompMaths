@@ -4,11 +4,44 @@
 format: jb-book
 root: intro
 parts:
-  - caption: Notes for Book
+  - caption: Numerical Methods
     chapters:
-    - file: notebooks/markdown
-    - file: notebooks/notebooks
-    - file: notebooks/markdown-notebooks
+    - file: notebooks/Numerical_Methods/Intro/intro
+      sections:
+      - file: notebooks/Numerical_Methods/Intro/ch01/content
+      - file: notebooks/Numerical_Methods/Intro/ch02/content
+    - file: notebooks/Numerical_Methods/Linalg/intro
+      sections:
+      - file: notebooks/Numerical_Methods/Linalg/ch01/content
+      - file: notebooks/Numerical_Methods/Linalg/ch02/content
+  - caption: Monte Carlo Methods
+    chapters:
+    - file: notebooks/Monte_Carlo_Methods/Intro/intro
+      sections:
+      - file: notebooks/Monte_Carlo_Methods/Intro/ch01/content
+      - file: notebooks/Monte_Carlo_Methods/Intro/ch02/content
+    - file: notebooks/Monte_Carlo_Methods/Var_red/intro
+      sections:
+      - file: notebooks/Monte_Carlo_Methods/Var_red/ch01/content
+      - file: notebooks/Monte_Carlo_Methods/Var_red/ch02/content
+
+
+  # - caption: Monte Carlo Methods
+  #   chapters:
+  #   - file: notebooks/Monte_Carlo_Methods/intro
+  #     sections:
+  #     - file: notebooks/Monte_Carlo_Methods/ch01/content
+  #     - file: notebooks/Monte_Carlo_Methods/ch02/content
+
+
+# format: jb-book
+# root: intro
+# parts:
+#   - caption: Notes for Book
+#     chapters:
+#     - file: notebooks/markdown
+#     - file: notebooks/notebooks
+#     - file: notebooks/markdown-notebooks
 
 # chapters:
 # - file: markdown
