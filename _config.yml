@@ -30,4 +30,4 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
-  favicon: notebook/Top_Logo.png
+  favicon: images/Top_Logo.png
